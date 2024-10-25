@@ -25,7 +25,6 @@ class _MyAppState extends State<MyApp> {
     final lowPowerMode = await Power.isLowPowerMode;
     final isCharging = await Power.isCharging;
     final batteryLevel = await Power.batteryLevel;
-
     if (!mounted) return;
 
     setState(() {

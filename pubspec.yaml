@@ -5,8 +5,8 @@ homepage: https://github.com/Amir-P/power
 repository: https://github.com/Amir-P/power
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-  flutter: ">=2.0.1"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
 
 dependencies:
   flutter:
