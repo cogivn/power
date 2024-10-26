@@ -1,5 +1,5 @@
 name: power_example
-version: 0.1.0
+version: 0.1.0+1
 description: Demonstrates how to use the power plugin.
 
 # The following line prevents the package from being accidentally published to

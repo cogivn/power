@@ -43,10 +43,14 @@ class _MyAppState extends State<MyApp> {
         ),
         body: Center(
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: [
               Text('Low power mode is ${_lowPowerMode ? 'on' : 'off'}'),
               Text(
-                  'Battery level is ${_batteryLevel == -1 ? 'Unavailable' : _batteryLevel} and is ${_isCharging ? 'Charging' : 'Discharging'}'),
+                'Battery level is ${_batteryLevel == -1 ? 'Unavailable' : _batteryLevel} and is ${_isCharging ? 'Charging' : 'Discharging'}',
+              ),
+              SizedBox(height: 30),
+              ElevatedButton(onPressed: initPowerState, child: Text('Check'))
             ],
             mainAxisAlignment: MainAxisAlignment.center,
           ),
